@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no">
+    <link href="http://necolas.github.io/normalize.css/3.0.2/normalize.css" rel="stylesheet" type="text/css">
+    <script src="http://code.jquery.com/jquery.min.js" type="text/javascript"></script>
+    <script src="density.js" type="text/javascript"></script>
+    <style type="text/css">
+      .one {
+        background-color: #afafaf;
+      }
+      .two {
+        background-color: #efefef;
+      }
+      .three {
+        background-color: #cfcfcf;
+      }
+      .four {
+        background-color: #515151;
+        color: white;
+      }
+      .five {
+        background-color: black;
+        color: white;
+      }
+      #open, #prev {
+        display: inline-block;
+      }
+      #prev {
+        float:right;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div nav style="background-color: red;">
+      <div id="open">Open</div>
+      <div id="prev">Prev</div>
+    </div>
+
+    <div menu style="background-color: blue;"></div>
+    
+    <div content>
+      <div page class="one">Page One</div>
+      <div page class="two">Page Two</div>
+      <div page class="three">Page Three</div>
+      <div page class="four">Page Four</div>
+      <div page class="five">Page Five</div>
+    </div>
+
+    <script type="text/javascript">
+      $.density.init({ pageDir: 'btot' });
+      var count = 1;
+      $('#open').on('click', function() {
+        console.log(count);
+        $.density.pages.open(count);
+        count++;
+        if(count >= $('div[page]').length) {
+          count = 1;
+        }
+      });
+
+      $('#prev').on('click', function() {
+        $.density.pages.prev();
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+<?xml version='1.0' eencoding='utf-8'?>
+<widget id="com.sevodev.heartgallerynorthflorida" version="1.1.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Heart Gallery North Florida</name>
+    <description>
+        Heart Gallery North Florida
+    </description>
+    <author email="developer@sevodev.com" href="http://sevodev.com">
+        Sevo Development Team
+    </author>
+    <preference name="AutoHideSplashScreen" value="false" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="StatusBarStyle" value="lightcontent" />
+    <preference name="SplashScreen" value="screen" />
+    <preference name="SplashScreenDelay" value="30000" />
+    <preference name="FadeSplashScreen" value="true" />
+    <platform name="android">
+      <icon src="res/drawable-ldpi/icon.png" density="ldpi" />
+      <icon src="res/drawable-mdpi/icon.png" density="mdpi" />
+      <icon src="res/drawable-hdpi/icon.png" density="hdpi" />
+      <icon src="res/drawable-xhdpi/icon.png" density="xhdpi" />
+      <icon src="res/drawable-xxhdpi/icon.png" density="xxhdpi" />
+      <icon src="res/drawable-xxxhdpi/icon.png" density="xxxhdpi" />
+      <splash src="res/drawable-land-hdpi/screen.png" density="land-hdpi"/>
+      <splash src="res/drawable-land-ldpi/screen.png" density="land-ldpi"/>
+      <splash src="res/drawable-land-mdpi/screen.png" density="land-mdpi"/>
+      <splash src="res/drawable-land-xhdpi/screen.png" density="land-xhdpi"/>
+      <splash src="res/drawable-land-xxhdpi/screen.png" density="land-xxhdpi"/>
+      <splash src="res/drawable-land-xxxhdpi/screen.png" density="land-xxxhdpi"/>
+      <splash src="res/drawable-port-hdpi/screen.png" density="port-hdpi"/>
+      <splash src="res/drawable-port-ldpi/screen.png" density="port-ldpi"/>
+      <splash src="res/drawable-port-mdpi/screen.png" density="port-mdpi"/>
+      <splash src="res/drawable-port-xhdpi/screen.png" density="port-xhdpi"/>
+      <splash src="res/drawable-port-xxhdpi/screen.png" density="port-xxhdpi"/>
+      <splash src="res/drawable-port-xxxhdpi/screen.png" density="port-xxxhdpi"/>
+    </platform>
+    <content src="index.html" />
+    <access origin="*" />
+</widget>

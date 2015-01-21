@@ -1,0 +1,26 @@
+{
+  "name": "density-js",
+  "version": "1.2.7",
+  "description": "A simple javascript framework that uses jQuery in order to easily and quickly build mobile applications using the Cordova framework.",
+  "main": "density.js",
+  "author": "Sevo Development, LLC",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "homepage": "https://github.com/SevoDevelopment/DensityJS",
+  "_release": "1.2.7",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.2.7",
+    "commit": "cd1a868731ca991917605403c65c30e75083ec92"
+  },
+  "_source": "git://github.com/SevoDevelopment/DensityJS.git",
+  "_target": "~1.2.7",
+  "_originalSource": "densityjs",
+  "_direct": true
+}

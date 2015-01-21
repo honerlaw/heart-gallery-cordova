@@ -1,0 +1,98 @@
+
+* {
+  -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+  -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+  -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+  -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+}
+
+div[nav] {
+  color: white;
+  background-color: rgb(190, 0, 5);
+}
+
+div[nav] * {
+  font-size: 1.1rem;
+  padding: 1rem;
+}
+
+div[menu] {
+  box-shadow: 0 0 7px #666666;
+  background-color: white;
+}
+
+div[menu].density-menu-nonzero-transform, div[menu].density-menu-initial-transform {
+  box-shadow: none;
+}
+
+#camera-open-button {
+  float:right;
+}
+
+.menu-option {
+  margin: 1rem;
+  padding: 1rem 0 1rem .5rem;
+  border-bottom: 1px solid #eeeeee;
+  color: #7f7f7f;
+  text-transform: capitalize;
+}
+
+.gallery-title {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 1rem;
+  color: white;
+  padding: 1rem;
+  background-color: rgb(190, 0, 5);
+  border-radius: .2rem;
+}
+
+.gallery-content {
+  padding: 0 1rem 1rem 1rem;
+}
+
+.gallery-content * {
+  color: black !important;
+  font-weight: normal !important;
+  background-color: #eeeeee;
+  padding: 1rem;
+  border-radius: .2rem;
+  font-size: 1rem;
+}
+
+.gallery-content strong, .gallery-content span, .gallery-content a {
+  font-weight: normal !important;
+  padding: 0 !important;
+}
+
+.gallery-content a {
+  color: blue;
+}
+
+.gallery-image {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.gallery-image img {
+  max-height: 50%;
+  max-width: 80%;
+}
+
+#center-vertical {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  text-align: center;
+  color: rgb(190, 0, 5);
+  font-size: 1.8rem;
+}
+
+#center-vertical #home-page-title {
+  margin-top: 1rem;
+}
+
+#center-vertical span {
+  font-size: 1.2rem;
+}

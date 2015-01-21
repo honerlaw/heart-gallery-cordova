@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>39916629-8E9C-4444-BA3B-18553C2754B2</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Heart Gallery North Florida</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>55D99EF799B82A93E773754A14A8F95E94C2B342</key>
+		<string>https://github.com/SevoDevelopment/heart-gallery-north-florida-mobile</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>platforms/ios/Heart Gallery North Florida.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>55D99EF799B82A93E773754A14A8F95E94C2B342</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/SevoDevelopment/heart-gallery-north-florida-mobile</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>55D99EF799B82A93E773754A14A8F95E94C2B342</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>55D99EF799B82A93E773754A14A8F95E94C2B342</string>
+			<key>IDESourceControlWCCName</key>
+			<string>heart-gallery-north-florida-app</string>
+		</dict>
+	</array>
+</dict>
+</plist>
